@@ -1,4 +1,4 @@
-### signin as a existing user
+### Signin as a existing user
 POST http://localhost:3000/auth/login
 content-type: application/json
 
@@ -6,3 +6,6 @@ content-type: application/json
     "username" : "john",
     "password": "changeme"
 }
+
+### User profil
+GET http://localhost:3000/profile
